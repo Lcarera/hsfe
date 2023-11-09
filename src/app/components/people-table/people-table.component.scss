@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 25%;
+}
+
+td,
+th {
+    width: 25%;
+}
+
+#container {
+    overflow-x: auto;
+}
+
+.table-margin{
+    @media screen and (min-width: 600px) {
+        margin: 0 3em 3em 3em;
+    }
+}
+
+.filter-margin{
+    width: 50%;
+    margin-top: 3em;
+    @media screen and (min-width: 600px) {
+        margin: 3em 3em 0 3em;
+    }
+}
